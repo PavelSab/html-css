@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin:0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+.wrapper{
+    width:1280px;
+    margin:0 auto;
+    position: relative;
+}
+
+/* Header */
+
+.container{
+    width: 100%;
+     max-width: 1138px; 
+    margin:0 auto;
+}
+.intro{
+    color:#FFF;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1280px;
+    height: 720px;
+    background: url("./images/Logo.jpg") center no-repeat;
+    background-size:contain;
+}
+.intro_inner{
+    width: 100%;
+    max-height: 595px;
+    margin:0 auto;
+}
+.intro_title{
+    font-size:70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align:left;
+    line-height:1;
+}
+.intro_suptitle{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 75px;
+    font-size:20px; 
+}
+
+.header{
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.15);
+    padding-top:31px;
+    padding-bottom:38px;
+    width: 100%;    
+    max-width: 1280px;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;   
+    z-index:1000;
+    margin:0 auto;
+}
+.header_inner{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo{
+
+    font-weight: 700;
+}
+
+.nav{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+} 
+.ull{
+    display:flex;
+}
+
+.nav_link{
+    font-family: 'Roboto', sans-serif;
+    display:inline-block;
+     vertical-align: top; 
+    margin: 0 11px;
+    color:#fff;
+    text-decoration: none;
+}
+.button{
+    display:inline-block;
+    vertical-align: top;
+    padding: 25px 70px;
+    border:3px solid #fff;
+    font-size:14px;
+    font-weight: 700;
+    color:#fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* Section */
+
+.section{
+    width:100%;
+    max-width: 1280px;
+    height: 600px;
+    margin-top:20px;
+    background-color:whitesmoke;
+    background-size:cover; 
+}
+.container_one{
+    width:1138px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin:0 auto; 
+}
+.section_left{
+    margin-top:156px;
+}
+.section_right{
+    padding-top:100px;
+}
+.title_right{
+    font-size:15px;
+display:inline-block;
+vertical-align: top;
+color:#fff;
+padding: 25px 35px;
+background-color:rgb(8, 199, 206);
+text-decoration: none;
+}
+.modern{
+    font-size:15px;
+    margin-top: 10px;
+vertical-align: top;
+background-color:rgb(54, 52, 52);
+padding: 35px 35px;
+background-color:white;
+text-decoration: none;
+}
+.beati{
+    font-size:15px;
+    margin-top: 10px;
+    vertical-align: top;
+    background-color:rgb(54, 52, 52);
+    padding: 35px 35px;
+    background-color:white;
+    text-decoration: none;
+}
+
+ .btn{
+display:inline-block;
+vertical-align: top;
+color:#fff;
+padding: 25px 70px;
+background-color:rgb(54, 52, 52);
+text-transform: uppercase;
+text-decoration: none;
+}
+
+/* Section */
+
+.section_one{
+    width:100%;
+    max-width: 1280px;
+    /* height: 760px; */
+    margin-top:20px;
+    background-color:#fff;
+    background-size:cover; 
+}
+.product{
+    padding-top:100px;
+    width:1138px;
+    align-items:center;
+    margin:0 auto; 
+    padding-bottom: 61px;
+}
+.about{
+    width:100%;
+    max-width: 1138px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+}
+.name{
+    margin-top:15px;
+}
+
+.text{
+    width:100%;
+    font-size:13px;
+}
+
+.more{
+    font-size:15px;
+    text-transform: uppercase;
+}
+
+
+/* Section */
+
+.navigation{
+    width:100%;
+    max-width: 1280px;
+    margin-top:200px;
+}
+.header_navigation{
+    width:100%;
+    max-width: 1138px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+}
+li{ 
+    line-height:50px;
+    list-style-type: none;
+}
+.nav_linke{
+    font-family: 'Roboto', sans-serif;
+    display:inline-block;
+     vertical-align: top; 
+    color:grey;
+    text-decoration: none;
+}
+
+/* Footer */
+
+.footer{
+    margin-top:70px;
+    width:100%;
+    border-top: 1px solid rgb(197, 194, 194);
+}
+.footer_header{
+    width:1138px;
+    margin:0 auto;
+}
+.footer_countainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+span{
+    color:rgb(218, 213, 213);
+}
+.end{
+    font-size:15px;
+    color:grey;
+}
+
+.active{
+    color: blue;
+    background-color: red;
+}
